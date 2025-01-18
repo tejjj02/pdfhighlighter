@@ -32,7 +32,7 @@ See example image for the overview.
 ### Steps
 1. Clone this repository:
    ```bash
-   git clone https://github.com/tejjj02/pdf-highlighter.git
+   git clone https://github.com/tejjj02/pdfhighlighter.git
    cd pdf-highlighter
    ```
 
