@@ -2,6 +2,8 @@
 
 A **Flask-based web application** that allows users to upload a PDF, search for specific text, and highlight it with customizable colors. The modified PDF can then be downloaded with the highlighted text.
 
+See example image for the overview.
+
 ---
 
 ## Features
