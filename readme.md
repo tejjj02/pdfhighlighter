@@ -28,7 +28,7 @@ A FastAPI-based web application that highlights words in PDF documents.
    - Enter the phrase to highlight
    - After processing, use the "Download Highlighted PDF" button
    - Access /get-metadata for highlight position data
-## 5. API Documentation
+##  API Documentation
 
 ### Endpoints
 
