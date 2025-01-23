@@ -28,11 +28,14 @@ A FastAPI-based web application that highlights words in PDF documents.
    - Enter the phrase to highlight
    - After processing, use the "Download Highlighted PDF" button
    - Access /get-metadata for highlight position data
-5. **API Documentation**
+## 5. API Documentation
 
-  - Endpoints
-  - Endpoint	             Method	        Description	Parameters
-  - /	                   GET	           Web interface for PDF upload	-
-  - /highlight            POST	           Process PDF and add highlights	PDF file, search text
-  - /download	          GET	           Download highlighted PDF	-
-  - /get-metadata	       GET	           Retrieve highlight metadata (JSON)	-
+### Endpoints
+
+| Endpoint      | Method | Description                          | Parameters           |
+|---------------|--------|--------------------------------------|----------------------|
+| `/`           | `GET`  | Web interface for PDF upload         | -                    |
+| `/highlight`  | `POST` | Process PDF and add highlights       | PDF file, search text |
+| `/download`   | `GET`  | Download highlighted PDF             | -                    |
+| `/get-metadata`| `GET`  | Retrieve highlight metadata (JSON)   | -                    |
+
