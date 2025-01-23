@@ -18,7 +18,7 @@ A FastAPI-based web application that highlights words in PDF documents.
 
 2. **Clone repository**:
    ```bash
-   git clone https://github.com/yourusername/pdf-highlighter.git
+   git clone https://github.com/tejjj02/pdf-highlighter.git
    cd pdf-highlighter
 3. **Running the Application**:
    ```bash
