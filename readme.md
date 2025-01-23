@@ -20,3 +20,19 @@ A FastAPI-based web application that highlights words in PDF documents.
    ```bash
    git clone https://github.com/yourusername/pdf-highlighter.git
    cd pdf-highlighter
+3. **Running the Application**:
+   ```bash
+   uvicorn main:app --reload
+4. **Web interface guide**:
+   - Upload pdf
+   - Enter the phrase to highlight
+   - After processing, use the "Download Highlighted PDF" button
+   - Access /get-metadata for highlight position data
+5. **API Documentation**
+
+  - Endpoints
+  - Endpoint	             Method	        Description	Parameters
+  - /	                   GET	           Web interface for PDF upload	-
+  - /highlight            POST	           Process PDF and add highlights	PDF file, search text
+  - /download	          GET	           Download highlighted PDF	-
+  - /get-metadata	       GET	           Retrieve highlight metadata (JSON)	-
