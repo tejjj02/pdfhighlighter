@@ -22,7 +22,7 @@ A FastAPI-based web application that highlights words in PDF documents.
    cd pdf-highlighter
 3. **Running the Application**:
    ```bash
-   uvicorn main:app --reload
+   uvicorn app:app --reload
 4. **Web interface guide**:
    - Upload pdf
    - Enter the phrase to highlight
