@@ -1,14 +1,15 @@
 # PDF Highlighter
 
-A FastAPI-based web application that highlights words in PDF documents.
+A FastAPI-based web app that highlights words in PDF document.
 
 ## Features
 - Highlights multi-word phrases in PDFs
 - Preserves original PDF formatting
 - Handles punctuation as part of search terms
-- Case-sensitive matching
+- Highlights multi line with "|" seperator 
 - Generates combined highlights for phrases spanning multiple lines
-- Exports highlighting metadata (positions, pages) in JSON format
+- Exports highlighting metadata (positions, pages) in JSON format locally
+- Download the highlighted pdf
 
 ## Installation
 
@@ -23,11 +24,14 @@ A FastAPI-based web application that highlights words in PDF documents.
 3. **Running the Application**:
    ```bash
    uvicorn app:app --reload
-4. **Web interface guide**:
-   - Upload pdf
-   - Enter the phrase to highlight
-   - After processing, use the "Download Highlighted PDF" button
-   - Access /get-metadata for highlight position data
+
+##  Optional UI
+
+   4. **Web interface guide**:
+      - Upload pdf
+      - Enter the phrase to highlight
+      - After processing, use the "Download Highlighted PDF" button
+      - Access /get-metadata for highlight position data
 ##  API Documentation
 
 ### Endpoints
